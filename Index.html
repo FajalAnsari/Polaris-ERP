@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>polaris-technology</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar placeholder -->
+    <div id="navbar"></div>
+
+    <!-- Home page contenct -->
+    <div class="container">
+      <h3 class="fw-bold">Welcome to home page!</h3>
+      <h1>Web content</h1>
+      <h1>Web content</h1>
+      <h1>Web content</h1>
+      <h1>Web content</h1>
+    </div>
+
+    <!-- Foooter placeholder -->
+    <div id="footer"></div>
+    <!-- common navbar and footer -->
+    <script>
+      function loadCommonContent() {
+        fetch("navbar.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("navbar").innerHTML = data;
+          });
+
+        fetch("footer.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("footer").innerHTML = data;
+          });
+      }
+
+      loadCommonContent();
+    </script>
+    <!-- Boostrap js CND  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
