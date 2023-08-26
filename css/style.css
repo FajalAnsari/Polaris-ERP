@@ -20,7 +20,7 @@
     --underline-primary-green: #9ae8a5;
     --underline-secondry-green: #c9ffc8;
     --underline-blue-primary: #80DEE9;
-    --underline-blue-secondry: #0070af;
+
 
 }
 
@@ -48,6 +48,64 @@
 }
 
 /* Home Page styling start */
+.here-section{
+    padding: 35px 15px 160px 15px;
+    background-color: #f3f7fa;
+}
+
+.here-section h1{
+    margin-top: 30px;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+.here-section p{
+    width: 80%;
+    font-size: 1.2rem;
+    
+}
+.book-a-demo-btn{
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: var(--heading-white-color);
+    background-color: var(--secondry-blue);
+    border: none;
+    border-radius: 8px;
+}
+.bi-lightning-charge-fill{
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--secondry-blue);
+}
+
+.hero-list {
+    margin: 41px 0px 0px -16px;
+}
+.hero-list li{
+    margin: 8px 0px 0px 0px;
+    padding: 3px 0px;
+    list-style-type: square;
+}
+
+#sales-dashboard-img{
+    height: 300px;
+    z-index: 3;
+    position: absolute;
+    top: 485px;
+    left: 664px;
+}
+
+#home-page-main-slide-message{
+    width: 310px;
+    z-index: 3;
+    position: absolute;
+    top: 505px;
+    right: 85px;
+}
+
+.trustedby-section{
+  
+}
+
 /* Home Page styling end */
 
 
