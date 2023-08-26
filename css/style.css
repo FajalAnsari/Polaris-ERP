@@ -42,6 +42,69 @@
     .z-index-5{
         z-index: 5;
     }
+/* Home Page styling start */
+/* Home Page styling end */
+
+/* Benefits Page styling start */
+.card{
+    border-radius: 34px 34px 5px 5px !important;
+}
+  .main{
+    background-color: #f3f7fa;
+  }
+  
+.main .benefit_start{
+    margin-top: 80px !important;
+}
+  .title {
+    font-size: 3.9rem;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 1.12rem;
+  }
+  .button {
+    /* padding: 18px;
+    width: 50%; */
+    background-color: var(--secondry-blue);
+
+  }
+ 
+  .image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+  }
+
+  /* business transform component style start */
+.business_transform p{
+  
+  font-size: 3.81em;
+  font-weight: 400;
+  line-height: 1.2em;
+  
+}
+
+  /* business transform component style end */
+.business_supercharge{
+    margin-top: 50px;
+   background-color: var(--bg-secondry-white); 
+}
+.business_supercharge .supercharge_title{
+    font-size: 3.7rem;
+    font-weight: 600;
+}
+.business_supercharge .supercharge_para{
+    line-height: 1.68em;
+    font-size: 1.75rem;
+}
+.progress_bar .progress{
+    height: 6px;
+    
+}
+.progress .progress_bar{
+    background-color: var(--secondry-blue) !important;
+}
 
 /* Features CSS  end */
 
