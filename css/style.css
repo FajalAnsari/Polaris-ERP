@@ -9,7 +9,7 @@
 :root{
     --primary-blue:#f3f7fa;
     --secondry-blue: #0070AF;
-    --bg-white:#ffffff;
+    --bg-white:#f9f6fa;
     --light-dark:#3b4954;
     --heading-color:#141F39;
     --heading-white-color:#f9f6fa;
@@ -45,6 +45,7 @@
 
 /* Features CSS  end */
 
+/* Navbar ends here  */
 
 /* Footer  */
 footer{
@@ -67,12 +68,21 @@ footer a:hover{
 
 footer p{
     color: var(--bg-white);
+    font-weight: 200;
 }
 
 footer h5{
     font-size: 22px;
     font-weight: 600;
     color: var(--heading-white-color);
+}
+
+.social-icone i{
+    color: var(--bg-white);
+    border: 1px solid var(--bg-white);
+    border-radius: 50%;
+    padding: 5px;
+
 }
 
 footer .copyright a{
