@@ -10,6 +10,7 @@
     --primary-blue:#f3f7fa;
     --secondry-blue: #0070AF;
     --bg-white:#ffffff;
+    --bg-primary-blue:#ecf4f7;
     --bg-secondry-white:#f6f6f6;
     --light-dark:#3b4954;
     --heading-color:#141F39;
@@ -89,6 +90,44 @@
     background-color: var(--secondry-blue) !important;
 }
 
+/* restaurant success syling */
+.succes_restaurant{
+    background-color: var(--bg-primary-blue);
+    margin-top: 50px !important;
+    
+}
+.succes_restaurant .discuss_success{
+    font-size: 3.5rem;
+    color: var(--para-color);
+
+}
+.succes_restaurant button{
+    color: var(--para-color);
+    font-size: 2rem;
+}
+
+/* polaris benefits styling */
+
+.benefits_erp_section .experinece_polaris{
+    font-size: 3.5rem;
+    
+}
+.benefits_erp_section  .streamline_operations{
+    font-size: 1.5rem;
+
+
+}
+.voices_success{
+    background-color: var(--primary-blue);
+    padding: 80px;
+}
+.voices_success .customer_speak{
+    font-size: 2.5rem;
+    color: var(--para-color);
+}
+.voices_success .customer_discover_desc{
+    color: var(--para-color);
+}
 
 
 
