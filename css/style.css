@@ -24,7 +24,26 @@
     
 }
 
+/* Features CSS  start */
+    .happy-chef-container{
+        top: 0;
+        left: 10rem;
+    }
+    .happy-chef-img{
+        width: 100px;
+        height: 100px;
+    }
+    .start-80{
+        left: 30rem;
+    }
+    .bg-color-lightblue{
+        background-color: #ECF4F7;
+    }
+    .z-index-5{
+        z-index: 5;
+    }
 
+/* Features CSS  end */
 
 
 /* Footer  */
