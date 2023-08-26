@@ -30,5 +30,33 @@
 /* Footer  */
 footer{
     background-color: var(--light-dark);
-    padding: 40px 0px;
+    padding: 95px 10px 10px 10px;   
+}
+
+footer li{
+    padding: 0px 0px 15px 0px !important;
+}
+
+footer li a{
+    color:#A2A2A4;;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: gray;
+}
+
+footer p{
+    color: var(--bg-white);
+}
+
+footer h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--heading-white-color);
+}
+
+footer .copyright a{
+    color: #80DEE9;
+    text-decoration: none;
 }
