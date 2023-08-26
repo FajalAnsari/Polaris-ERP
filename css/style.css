@@ -12,6 +12,7 @@
     --bg-white:#ffffff;
     --bg-primary-blue:#ecf4f7;
     --bg-secondry-white:#f6f6f6;
+    --bg-white:#f9f6fa;
     --light-dark:#3b4954;
     --heading-color:#141F39;
     --heading-white-color:#f9f6fa;
@@ -122,8 +123,8 @@
     padding: 80px;
 }
 .voices_success .customer_speak{
-    font-size: 2.5rem;
-    color: var(--para-color);
+    font-size: 3.5rem;
+    
 }
 .voices_success .customer_discover_desc{
     color: var(--para-color);
@@ -131,16 +132,16 @@
 
 
 
-/* Benefits Page styling end */
-
-/* case-study Page styling start */
-/* case-study Page styling end */
+/* Navbar ends here  */
 
 /* Footer  */
 footer{
     background-color: var(--light-dark);
-    padding: 95px 10px 10px 10px;   
+    padding: 95px 10px 10px 10px; 
+    font-weight: bold;
+   
 }
+
 
 footer li{
     padding: 0px 0px 15px 0px !important;
@@ -157,6 +158,7 @@ footer a:hover{
 
 footer p{
     color: var(--bg-white);
+    font-weight: 200;
 }
 
 footer h5{
@@ -165,7 +167,32 @@ footer h5{
     color: var(--heading-white-color);
 }
 
+.social-icone i{
+    color: var(--bg-white);
+    border: 1px solid var(--bg-white);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px 3px;
+    font-size: 10px;
+
+}
+.reCAPTCHA{
+    color: #A2A2A4;
+    font-weight: lighter;
+}
+.reCAPTCHA a{
+    text-decoration: none;
+    color: #c5c5cd;
+}
+
 footer .copyright a{
     color: #80DEE9;
     text-decoration: none;
 }
+
+footer hr{
+    color: var(--heading-white-color);
+    height: 5px solid var(--bg-white);
+}
+
+/* Footer end here  */
