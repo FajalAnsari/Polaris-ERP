@@ -45,13 +45,17 @@
 
 /* Features CSS  end */
 
+
 /* Navbar ends here  */
 
 /* Footer  */
 footer{
     background-color: var(--light-dark);
-    padding: 95px 10px 10px 10px;   
+    padding: 95px 10px 10px 10px; 
+    font-weight: bold;
+   
 }
+
 
 footer li{
     padding: 0px 0px 15px 0px !important;
@@ -82,10 +86,27 @@ footer h5{
     border: 1px solid var(--bg-white);
     border-radius: 50%;
     padding: 5px;
+    margin: 0px 3px;
+    font-size: 10px;
 
+}
+.reCAPTCHA{
+    color: #A2A2A4;
+    font-weight: lighter;
+}
+.reCAPTCHA a{
+    text-decoration: none;
+    color: #c5c5cd;
 }
 
 footer .copyright a{
     color: #80DEE9;
     text-decoration: none;
 }
+
+footer hr{
+    color: var(--heading-white-color);
+    height: 5px solid var(--bg-white);
+}
+
+/* Footer end here  */
