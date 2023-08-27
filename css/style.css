@@ -156,12 +156,36 @@
   /* Voices Of Success  Restaurant */
 
   .voice-section{
-    background-color: var(--bg-primary-blue);
+    background-color: #f3f7fa;
   }
 
+ .voice-section .voice-section{
+    margin-top: 10px !important;
+ }
 
 
+ /* ------Features At Glance-------- */
+ .hover-card:hover {
+    /* border: 0px 0px 0px 2px solid blue; */
+    border-bottom: 2px solid var(--secondry-blue) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+  }
 
+  .hover-card-active {
+    border-bottom: 2px solid var(--secondry-blue) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .featured-section .card {
+    border-radius: 1rem 1rem 5px 5px !important;
+  }
+  .Card-img-hover{
+transform: scale(1);
+  }
+  .Card-img-hover:hover {
+    transform: scale(1.2);
+    transition: transform 0.6s ease-in-out;
+  }
 
 /* ---------------Home Page styling End---------------- */
 
