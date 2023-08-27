@@ -9,11 +9,22 @@
 :root {
     --primary-blue: #f3f7fa;
     --secondry-blue: #0070AF;
+<<<<<<< HEAD
+    --bg-white:#ffffff;
+    --bg-primary-blue:#ecf4f7;
+    --bg-secondry-white:#f6f6f6;
+    --bg-white:#f9f6fa;
+    --light-dark:#3b4954;
+    --heading-color:#141F39;
+    --heading-white-color:#f9f6fa;
+    --para-color:#4f4f4f;
+=======
     --bg-white: #f9f6fa;
     --light-dark: #3b4954;
     --heading-color: #141F39;
     --heading-white-color: #f9f6fa;
     --para-color: #4f4f4f;
+>>>>>>> 83dba8d17f45b41cf4073800f0961919633b040c
     --second-primary-blue: background-image: linear-gradient(180deg, #F3F7FA 40%, #E1F0FE00 89%);
     --underline-pink: #f3cdbd;
     --underline-yellow: #f9d415;
@@ -206,10 +217,68 @@
     background-color: var(--secondry-blue) !important;
 }
 
-/* Features CSS  end */
+/* restaurant success syling */
+.succes_restaurant{
+    background-color: var(--bg-primary-blue);
+    margin-top: 50px !important;
+    
+}
+.succes_restaurant .discuss_success{
+    font-size: 3.5rem;
+    color: var(--para-color);
+
+}
+.succes_restaurant button{
+    color: var(--para-color);
+    font-size: 2rem;
+}
+
+/* polaris benefits styling */
+
+.benefits_erp_section .experinece_polaris{
+    font-size: 3.5rem;
+    
+}
+.benefits_erp_section  .streamline_operations{
+    font-size: 1.5rem;
 
 
-/* Navbar ends here  */
+}
+.voices_success{
+    background-color: var(--primary-blue);
+    padding: 80px;
+}
+.voices_success .customer_speak{
+    font-size: 3.5rem;
+    
+}
+.voices_success .customer_discover_desc{
+    color: var(--para-color);
+}
+
+
+/* Benefits Page styling end here */
+
+
+/* case study page styling start here */
+.case_study_section .case_story h1{
+    font-size: 3.5rem;
+}
+.case_study_section .all_success_story img{
+   height: 440px; 
+}
+
+
+/* case study page styling end here */
+
+/* case stydy sub page styling start here */
+.key_challenge p {
+color: var(--underline-blue-secondry) !important;
+
+}
+
+/* case stydy sub page styling end here */
+
 
 /* Footer  */
 footer {
