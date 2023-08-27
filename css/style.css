@@ -13,6 +13,7 @@
     --bg-primary-blue:#ecf4f7;
     --bg-secondry-white:#f6f6f6;
     --bg-white:#f9f6fa;
+    --bg-dim-white:#fff;
     --light-dark:#3b4954;
     --heading-color:#141F39;
     --heading-white-color:#f9f6fa;
@@ -261,11 +262,51 @@
 .case_study_section .all_success_story img{
    height: 440px; 
 }
+/* for hover an image animation start */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block; /* Allow the container to fit the content */
+  }
+  
+  .hover-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .overlay-slide {
+    position: absolute;
+    bottom: 0;
+    right: -100%; /* Initially, the div is hidden off the right */
+    width: auto;
+    height: 20%; /* Adjust height to match the image */
+    background-color: var(--bg-white);
+    opacity: 85% !important;
+    padding: 20px;
+    transition: right 0.3s ease, opacity 0.3s ease; /* Add right transition */
+    opacity: 0; /* Initially transparent */
+  }
+  
+  .image-container:hover .overlay-slide {
+    right: 0; /* Slide the div in from the right on hover */
+    opacity: 1; /* Fade in the div on hover */
+  }
+  
+  .all_success_story .overlay_ent{
+    color: var(--para-color);
+  }
+  
+
+/* for hover an image animation end */
 
 
 /* case study page styling end here */
 
 /* case stydy sub page styling start here */
+.case_study_portfolio{
+    background-color: var(--bg-dim-white);
+}
 .key_challenge p {
 color: var(--underline-blue-secondry) !important;
 
