@@ -28,6 +28,8 @@
     --underline-primary-green: #9ae8a5;
     --underline-secondry-green: #c9ffc8;
     --underline-blue-primary: #80DEE9;
+    --orange-check:#ff855f;
+    --red-gradient-text: linear-gradient(to right, #cf5b67 0%, #CE9B9B 100%)
 
 
 }
@@ -309,7 +311,44 @@
 color: var(--underline-blue-secondry) !important;
 
 }
+.chinese_place_restaurant .transforming h1{
+    font-size: 3.8rem;
+    width: 120%;
+}
+.chinese_place_restaurant .chinese_palace h1{
+    font-size: 3.6rem;
+}
+.chinese_place_restaurant .transforming h1 .grouping_color{
+    background: var(--red-gradient-text);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+}
 
+.chinese_place_restaurant .key_challenge p {
+    color: var(--secondry-blue) !important;  
+}
+.chinese_place_restaurant .key_challenge h1{
+    font-size: 3.2rem;
+}
+.chinese_place_restaurant .gaming_solution .game_changing{
+color: var(--secondry-blue);
+}
+
+.key_benefits_section .key_benefit {
+    color: var(--secondry-blue);
+}
+.key_benefits_section h1{
+    width: 70%;
+    font-size: 3.2rem;
+}
+.chef_workflow .tick_mark span{
+    color: var(--orange-check);
+    font-size: 25px;
+}
+.key_facts_figures_section .facts_figures span{
+    color: var(--secondry-blue);
+}
 /* case stydy sub page styling end here */
 
 
