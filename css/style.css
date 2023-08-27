@@ -156,11 +156,12 @@
   /* Voices Of Success  Restaurant */
 
   .voice-section{
-    background-color: var(--bg-primary-blue);
+    background-color: #f3f7fa;
   }
 
-
-
+ .voice-section .voice-section{
+    margin-top: 10px !important;
+ }
 
 
 /* ---------------Home Page styling End---------------- */
