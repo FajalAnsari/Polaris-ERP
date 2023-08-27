@@ -102,9 +102,22 @@
     right: 85px;
 }
 
-.trustedby-section{
-  
-}
+/* Home slider  */
+.partnered-section {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .partnered-images {
+    display: flex;
+    transition: transform 0.5s;
+  }
+
+  .partnered-image {
+    width: 25%;
+    flex-shrink: 0;
+  }
 
 /* Home Page styling end */
 
