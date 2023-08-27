@@ -9,7 +9,6 @@
 :root {
     --primary-blue: #f3f7fa;
     --secondry-blue: #0070AF;
-<<<<<<< HEAD
     --bg-white:#ffffff;
     --bg-primary-blue:#ecf4f7;
     --bg-secondry-white:#f6f6f6;
@@ -18,13 +17,11 @@
     --heading-color:#141F39;
     --heading-white-color:#f9f6fa;
     --para-color:#4f4f4f;
-=======
     --bg-white: #f9f6fa;
     --light-dark: #3b4954;
     --heading-color: #141F39;
     --heading-white-color: #f9f6fa;
     --para-color: #4f4f4f;
->>>>>>> 83dba8d17f45b41cf4073800f0961919633b040c
     --second-primary-blue: background-image: linear-gradient(180deg, #F3F7FA 40%, #E1F0FE00 89%);
     --underline-pink: #f3cdbd;
     --underline-yellow: #f9d415;
@@ -58,9 +55,11 @@
     z-index: 5;
 }
 
-/* Home Page styling start */
+/* ---------------Home Page styling start---------------- */
+
+/* Hero section */
 .here-section{
-    padding: 35px 15px 160px 15px;
+    padding: 35px 15px 20px 15px;
     background-color: #f3f7fa;
 }
 
@@ -113,9 +112,9 @@
     right: 85px;
 }
 
-/* Home slider  */
+/* trusted slider  */
 .partnered-section {
-    height: 300px;
+    height: 250px;
     overflow: hidden;
     position: relative;
   }
@@ -126,12 +125,46 @@
   }
 
   .partnered-image {
-    width: 25%;
+    width: 20%;
     flex-shrink: 0;
+    padding: 20px;
   }
 
-/* Home Page styling end */
+  /* Simplify Restaurant */
+.simplify-section{
+    height: 900px;
+    padding: 65px 15px 20px 15px;
+}
 
+.simplify-section .left-side-video{
+   height: 50%;
+   margin-left: 30px;
+  
+}
+.simplify-section .main-video-img{
+    height: 50%;
+}
+.simplify-section .performance-img{
+    height: 20%;
+    z-index: 99;
+    position: relative;
+    bottom: 528px;
+    left: 625px;
+}
+  /* Voices Of Success  Restaurant */
+
+  .voice-section{
+    background-color: var(--bg-primary-blue);
+  }
+
+
+
+
+
+/* ---------------Home Page styling End---------------- */
+
+
+/* --------------------------------------------------------------------------- */
 
 /* Contact Page styling start */
 .bg-voilet{
