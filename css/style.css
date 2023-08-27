@@ -149,8 +149,25 @@
 }
 
 
+/* Benefits Page styling end here */
 
-/* Navbar ends here  */
+
+/* case study page styling start here */
+.case_study_section .case_story h1{
+    font-size: 3.5rem;
+}
+
+
+/* case study page styling end here */
+
+/* case stydy sub page styling start here */
+.key_challenge p {
+color: var(--underline-blue-secondry) !important;
+
+}
+
+/* case stydy sub page styling end here */
+
 
 /* Footer  */
 footer{
