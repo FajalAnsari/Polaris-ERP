@@ -9,6 +9,14 @@
 :root {
     --primary-blue: #f3f7fa;
     --secondry-blue: #0070AF;
+    --bg-white:#ffffff;
+    --bg-primary-blue:#ecf4f7;
+    --bg-secondry-white:#f6f6f6;
+    --bg-white:#f9f6fa;
+    --light-dark:#3b4954;
+    --heading-color:#141F39;
+    --heading-white-color:#f9f6fa;
+    --para-color:#4f4f4f;
     --bg-white: #f9f6fa;
     --light-dark: #3b4954;
     --heading-color: #141F39;
@@ -20,6 +28,8 @@
     --underline-primary-green: #9ae8a5;
     --underline-secondry-green: #c9ffc8;
     --underline-blue-primary: #80DEE9;
+    --orange-check:#ff855f;
+    --red-gradient-text: linear-gradient(to right, #cf5b67 0%, #CE9B9B 100%)
 
 
 }
@@ -47,9 +57,11 @@
     z-index: 5;
 }
 
-/* Home Page styling start */
+/* ---------------Home Page styling start---------------- */
+
+/* Hero section */
 .here-section{
-    padding: 35px 15px 160px 15px;
+    padding: 35px 15px 20px 15px;
     background-color: #f3f7fa;
 }
 
@@ -102,12 +114,59 @@
     right: 85px;
 }
 
-.trustedby-section{
-  
+/* trusted slider  */
+.partnered-section {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .partnered-images {
+    display: flex;
+    transition: transform 0.5s;
+  }
+
+  .partnered-image {
+    width: 20%;
+    flex-shrink: 0;
+    padding: 20px;
+  }
+
+  /* Simplify Restaurant */
+.simplify-section{
+    height: 900px;
+    padding: 65px 15px 20px 15px;
 }
 
-/* Home Page styling end */
+.simplify-section .left-side-video{
+   height: 50%;
+   margin-left: 30px;
+  
+}
+.simplify-section .main-video-img{
+    height: 50%;
+}
+.simplify-section .performance-img{
+    height: 20%;
+    z-index: 99;
+    position: relative;
+    bottom: 528px;
+    left: 625px;
+}
+  /* Voices Of Success  Restaurant */
 
+  .voice-section{
+    background-color: var(--bg-primary-blue);
+  }
+
+
+
+
+
+/* ---------------Home Page styling End---------------- */
+
+
+/* --------------------------------------------------------------------------- */
 
 /* Contact Page styling start */
 .bg-voilet{
@@ -263,10 +322,105 @@
     background-color: var(--secondry-blue) !important;
 }
 
-/* Features CSS  end */
+/* restaurant success syling */
+.succes_restaurant{
+    background-color: var(--bg-primary-blue);
+    margin-top: 50px !important;
+    
+}
+.succes_restaurant .discuss_success{
+    font-size: 3.5rem;
+    color: var(--para-color);
+
+}
+.succes_restaurant button{
+    color: var(--para-color);
+    font-size: 2rem;
+}
+
+/* polaris benefits styling */
+
+.benefits_erp_section .experinece_polaris{
+    font-size: 3.5rem;
+    
+}
+.benefits_erp_section  .streamline_operations{
+    font-size: 1.5rem;
 
 
-/* Navbar ends here  */
+}
+.voices_success{
+    background-color: var(--primary-blue);
+    padding: 80px;
+}
+.voices_success .customer_speak{
+    font-size: 3.5rem;
+    
+}
+.voices_success .customer_discover_desc{
+    color: var(--para-color);
+}
+
+
+/* Benefits Page styling end here */
+
+
+/* case study page styling start here */
+.case_study_section .case_story h1{
+    font-size: 3.5rem;
+}
+.case_study_section .all_success_story img{
+   height: 440px; 
+}
+
+
+/* case study page styling end here */
+
+/* case stydy sub page styling start here */
+.key_challenge p {
+color: var(--underline-blue-secondry) !important;
+
+}
+.chinese_place_restaurant .transforming h1{
+    font-size: 3.8rem;
+    width: 120%;
+}
+.chinese_place_restaurant .chinese_palace h1{
+    font-size: 3.6rem;
+}
+.chinese_place_restaurant .transforming h1 .grouping_color{
+    background: var(--red-gradient-text);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+.chinese_place_restaurant .key_challenge p {
+    color: var(--secondry-blue) !important;  
+}
+.chinese_place_restaurant .key_challenge h1{
+    font-size: 3.2rem;
+}
+.chinese_place_restaurant .gaming_solution .game_changing{
+color: var(--secondry-blue);
+}
+
+.key_benefits_section .key_benefit {
+    color: var(--secondry-blue);
+}
+.key_benefits_section h1{
+    width: 70%;
+    font-size: 3.2rem;
+}
+.chef_workflow .tick_mark span{
+    color: var(--orange-check);
+    font-size: 25px;
+}
+.key_facts_figures_section .facts_figures span{
+    color: var(--secondry-blue);
+}
+/* case stydy sub page styling end here */
+
 
 /* Footer  */
 footer {
