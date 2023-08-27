@@ -123,6 +123,76 @@
 /* Contact Page styling end */
 
 
+
+/* Contact Page styling start */
+.Starter-plan{
+    background-color: #dde1f7;
+    color: var(--secondry-blue);
+}
+.text-color1-prizing{
+    color: var(--para-color);
+}
+.text-color2-prizing{
+    color: #CCCCCC;
+}
+.text-color3-prizing{
+    color: var(--heading-color);
+}
+.Standard-plan-bg{
+    background-color: var(--secondry-blue);
+    color: #ffffff;
+}
+.Standard-plan{
+    background-color: #ffffff;
+    color: var(--secondry-blue);
+}
+.fs-4rem{
+    font-size: 3.9rem;
+}
+.pricing-underline-color{
+    text-decoration: underline;
+    text-decoration-color: var(--underline-yellow);
+}
+.prize-switch-color{
+    background-color: var(--secondry-blue) !important;
+}
+.price-Contact-us-color{
+    background-color: var(--secondry-blue);
+    color: #ffffff;
+}
+.price-bg-primaryblue{
+    background-color: var(--primary-blue);
+}
+.price-fw-500{
+    font-weight: 500;
+}
+.price-check-color{
+    color: #2cb966;
+}
+.price-check-color-blue{
+    color: #1b63f2;
+}
+.price-secondary-color{
+    color: var(--secondry-blue);
+}
+.price-border-secondary{
+    border: 1px solid #0070AF;
+}
+.price-plan-box-shadow{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+}
+.price-cross-color{
+    color: #b8b8b8;
+}
+.price-rounded-1rem{
+    border-radius: 1rem;
+}
+.Contact-hover:hover{
+    color: #ffffff;
+}
+/* Contact Page styling end */
+
+
 /* Benefits Page styling start */
 .card {
     border-radius: 34px 34px 5px 5px !important;
