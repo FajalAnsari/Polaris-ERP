@@ -277,7 +277,7 @@ transform: scale(1);
 
 /* Contact Page styling start */
 .bg-voilet{
-    background-color: #0070AF;
+    background-color: #000000;
 }
 .h-30{
     height: 20rem;
@@ -288,6 +288,7 @@ transform: scale(1);
 
 /* Contact Page styling end */
 
+/* contact page contact us now  */
 
 
 /* Contact Page styling start */
@@ -356,6 +357,26 @@ transform: scale(1);
 .Contact-hover:hover{
     color: #ffffff;
 }
+
+
+/* pricing-faq  */
+.pricing-faq{
+    background-color: #f3f7fa;
+    margin-top: 120px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.pricing-faq h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.pricing-faq  .accordion-item{
+    background-color: #f3f7fa !important;
+    /* border-radius: 100% !important; */
+}
+
+
 /* Contact Page styling end */
 
 
