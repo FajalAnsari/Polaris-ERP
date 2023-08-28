@@ -8,6 +8,10 @@
     <title>Case study portfolio</title>
 </head>
 <body>
+   <!-- preloader -->
+   <div id="preloader">
+    <div id="loader"></div>
+  </div>
         <!-- Navbar placeholder -->
         <div id="navbar"></div>
 
@@ -568,6 +572,11 @@ With more than 42 years of experience in the food industry and overwhelming supp
       }
 
       loadCommonContent();
+       // preloader 
+    window.addEventListener('load', function () {
+  const preloader = document.getElementById('preloader');
+  preloader.style.display = 'none';
+});
     </script>
      <!-- Boostrap js CND  -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

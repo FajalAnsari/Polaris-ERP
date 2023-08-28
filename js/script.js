@@ -1,4 +1,6 @@
 // Home page 
+// preloader 
+
 
 // slider
 const partneredImages = document.querySelector('.partnered-images');
@@ -54,3 +56,42 @@ const partneredImages = document.querySelector('.partnered-images');
     partneredImageWidth = document.querySelector('.partnered-image').clientWidth;
     slideImages(0);
   });
+
+
+
+  // Faq's 
+  // Add event listeners to each toggle button
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqItems = document.querySelectorAll(".faq-item");
+  
+    faqItems.forEach((item) => {
+      const question = item.querySelector(".faq-question");
+      const answer = item.querySelector(".faq-answer");
+  
+      question.addEventListener("click", () => {
+        // Close all other open answers
+        faqItems.forEach((otherItem) => {
+          if (otherItem !== item && otherItem.classList.contains("open")) {
+            otherItem.querySelector(".faq-answer").style.display = "none";
+            otherItem.querySelector(".faq-question .icon").classList.remove("minus-icon");
+            otherItem.querySelector(".faq-question .icon").classList.add("plus-icon");
+            otherItem.classList.remove("open");
+          }
+        });
+  
+        if (answer.style.display === "none") {
+          answer.style.display = "block";
+          question.querySelector(".icon").classList.remove("plus-icon");
+          question.querySelector(".icon").classList.add("minus-icon");
+          item.classList.add("open");
+        } else {
+          answer.style.display = "none";
+          question.querySelector(".icon").classList.remove("minus-icon");
+          question.querySelector(".icon").classList.add("plus-icon");
+          item.classList.remove("open");
+        }
+      });
+    });
+  });
+  
+  
