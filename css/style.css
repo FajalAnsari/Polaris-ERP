@@ -411,23 +411,18 @@ transform: scale(1);
 }
 
 .business_supercharge .supercharge_title {
-    font-size: 3.7rem;
+    font-size: 3.4rem;
     font-weight: 600;
 }
 
 .business_supercharge .supercharge_para {
     line-height: 1.68em;
-    font-size: 1.75rem;
+    font-size: 1.34rem;
 }
-
-.progress_bar .progress {
+.business_supercharge .progress{
     height: 6px;
-
 }
 
-.progress .progress_bar {
-    background-color: var(--secondry-blue) !important;
-}
 
 /* restaurant success syling */
 .succes_restaurant{
@@ -436,32 +431,22 @@ transform: scale(1);
     
 }
 .succes_restaurant .discuss_success{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: var(--para-color);
-
-}
-.succes_restaurant button{
-    color: var(--para-color);
-    font-size: 2rem;
 }
 
 /* polaris benefits styling */
 
 .benefits_erp_section .experinece_polaris{
-    font-size: 3.5rem;
+    font-size: 2.89rem;
     
-}
-.benefits_erp_section  .streamline_operations{
-    font-size: 1.5rem;
-
-
 }
 .voices_success{
     background-color: var(--primary-blue);
     padding: 80px;
 }
 .voices_success .customer_speak{
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     
 }
 .voices_success .customer_discover_desc{
