@@ -499,7 +499,6 @@ transform: scale(1);
 
   .here-section {
     padding: 0px 0px 0px 0px;
-    /* background-color: #f3f7fa; */
   }
 
   .here-section h1 {
@@ -510,6 +509,10 @@ transform: scale(1);
 
 .hero-btn{
   width: 10px;
+}
+
+#main-hero-img{
+  margin-top: 10px;
 }
 
 /* trustedby-section */
