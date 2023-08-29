@@ -105,7 +105,7 @@
   }
   
 
-  /* --------------------------------universal end ------------------- */
+  /* --------------------------------Universal end ------------------- */
 
 /* Features CSS  start */
 .happy-chef-container {
@@ -360,6 +360,64 @@ transform: scale(1);
     100% { transform: rotate(360deg); }
   }
   
+
+
+
+/* ----Home Media Queries --------- */
+
+/* xs */
+@media (max-width: 475px) {
+
+
+}
+
+/* sm  */
+@media (max-width: 640px) {
+
+}
+
+
+/* md  */
+@media (max-width: 768px) {
+
+}
+
+/* lg  */
+@media (max-width: 1024px) {
+  
+  
+}
+
+
+/* xl  */
+@media (max-width: 1288px) {
+
+}
+
+/* 2xl  */
+@media (max-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------Home Page styling End---------------- */
 
 
@@ -379,6 +437,11 @@ transform: scale(1);
 /* Contact Page styling end */
 
 /* contact page contact us now  */
+/* Book a demo form  */
+
+
+  
+
 
 
 /* Contact Page styling start */
