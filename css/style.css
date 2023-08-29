@@ -131,7 +131,7 @@
   }
   
 
-  /* --------------------------------universal end ------------------- */
+  /* --------------------------------Universal end ------------------- */
 
 /* Features CSS  start */
 .happy-chef-container {
@@ -372,19 +372,10 @@ transform: scale(1);
   
 /* Contact Form CSS Starts */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
-
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
 
 .form-main {
   background: linear-gradient(to bottom, #00000024, #00000024),
-    url(https://res.cloudinary.com/dqifboxk5/image/upload/v1686209968/contact-us-2_y8zzx7.jpg)
+    url(https://polariserp.com/wp-content/uploads/2023/06/pos-payment-1.png)
       no-repeat center;
   background-size: cover;
   min-height: 100vh;
@@ -551,6 +542,63 @@ padding: 16px 0 0;
 
 /* Contact Form CSS Ends */
 
+
+
+/* ----Home Media Queries --------- */
+
+/* xs */
+@media (max-width: 475px) {
+
+
+}
+
+/* sm  */
+@media (max-width: 640px) {
+
+}
+
+
+/* md  */
+@media (max-width: 768px) {
+
+}
+
+/* lg  */
+@media (max-width: 1024px) {
+  
+  
+}
+
+
+/* xl  */
+@media (max-width: 1288px) {
+
+}
+
+/* 2xl  */
+@media (max-width: 1536px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------Home Page styling End---------------- */
 
 
@@ -570,6 +618,11 @@ padding: 16px 0 0;
 /* Contact Page styling end */
 
 /* contact page contact us now  */
+/* Book a demo form  */
+
+
+  
+
 
 
 /* Contact Page styling start */
