@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -35,6 +35,77 @@
 
 
 }
+
+/* btn-effect  */
+.btn1 {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 40px;
+    text-align: center;
+    background: #0070AF;
+    color: #ffffff;
+    border-radius: 5px;
+    perspective: 300px;
+    margin: 15px;
+    box-shadow: 0 4px 50px -5px rgba(0, 0, 0, 0.1);
+    &::before {
+      content: attr(data-hover);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #0070AF;
+      color: hsl(0, 0%, 100%);
+      font-size: 17px;
+      font-weight: 600;
+      padding: 10px 40px;
+      border-radius: 5px;
+      transform-style: preserve-3d;
+      transition: 200ms opacity, 500ms transform;
+      perspective: 300px;
+      opacity: 0;
+    }
+    &:hover {
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+  
+  .btn-bottom {
+    &::before {
+      transform: rotateX(-180deg) translateZ(30px);
+    }
+    &:hover,
+    &:active {
+      &::before {
+        transform: rotateY(0deg);
+      }
+    }
+  }
+  
+  /* image animation  */
+.move-on-hover-left {
+    transition: transform 0.3s ease;
+  }
+  
+  .move-on-hover-left:hover {
+    transform: translateX(10px) translateY(-10px);
+  }
+  .move-on-hover-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .move-on-hover-top:hover {
+    transform: translateX(0) translateY(-20px)
+  }
+  
+
+  /* --------------------------------universal end ------------------- */
 
 /* Features CSS  start */
 .happy-chef-container {
@@ -116,6 +187,8 @@
     right: 85px;
 }
 
+
+
 /* trusted slider  */
 .partnered-section {
     height: 250px;
@@ -134,6 +207,23 @@
     padding: 20px;
   }
 
+  .brush-paint-blue {
+    background: linear-gradient(180deg, #ffffff00 84%, #0070af 100%, #311b1d8f 29%, transparent 28%)
+   
+  }
+
+  .brush-paint-red {
+    background: linear-gradient(180deg, #ffffff00 80%, #c4985e 100%, #311b1d8f 29%, transparent 28%)
+   
+  }
+  .brush-paint-green {
+    background: linear-gradient(180deg, #ffffff00 80%, #59c86a 100%, #311b1d8f 29%, transparent 28%)
+   
+  }
+  .brush-paint-sky {
+    background: linear-gradient(180deg, #ffffff00 80%, #49d1f3 100%, #311b1d8f 29%, transparent 28%)
+   
+  }
   /* Simplify Restaurant */
 .simplify-section{
     height: 900px;
@@ -277,7 +367,7 @@ transform: scale(1);
 
 /* Contact Page styling start */
 .bg-voilet{
-    background-color: #0070AF;
+    background-color: #000000;
 }
 .h-30{
     height: 20rem;
@@ -288,6 +378,7 @@ transform: scale(1);
 
 /* Contact Page styling end */
 
+/* contact page contact us now  */
 
 
 /* Contact Page styling start */
@@ -356,6 +447,26 @@ transform: scale(1);
 .Contact-hover:hover{
     color: #ffffff;
 }
+
+
+/* pricing-faq  */
+.pricing-faq{
+    background-color: #f3f7fa;
+    margin-top: 120px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.pricing-faq h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.pricing-faq  .accordion-item{
+    background-color: #f3f7fa !important;
+    /* border-radius: 100% !important; */
+}
+
+
 /* Contact Page styling end */
 
 
@@ -411,23 +522,18 @@ transform: scale(1);
 }
 
 .business_supercharge .supercharge_title {
-    font-size: 3.7rem;
+    font-size: 3.4rem;
     font-weight: 600;
 }
 
 .business_supercharge .supercharge_para {
     line-height: 1.68em;
-    font-size: 1.75rem;
+    font-size: 1.34rem;
 }
-
-.progress_bar .progress {
+.business_supercharge .progress{
     height: 6px;
-
 }
 
-.progress .progress_bar {
-    background-color: var(--secondry-blue) !important;
-}
 
 /* restaurant success syling */
 .succes_restaurant{
@@ -436,32 +542,22 @@ transform: scale(1);
     
 }
 .succes_restaurant .discuss_success{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: var(--para-color);
-
-}
-.succes_restaurant button{
-    color: var(--para-color);
-    font-size: 2rem;
 }
 
 /* polaris benefits styling */
 
 .benefits_erp_section .experinece_polaris{
-    font-size: 3.5rem;
+    font-size: 2.89rem;
     
-}
-.benefits_erp_section  .streamline_operations{
-    font-size: 1.5rem;
-
-
 }
 .voices_success{
     background-color: var(--primary-blue);
     padding: 80px;
 }
 .voices_success .customer_speak{
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     
 }
 .voices_success .customer_discover_desc{
