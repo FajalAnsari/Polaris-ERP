@@ -344,7 +344,12 @@
  }
 
 
+
+
  /* ------Features At Glance-------- */
+ .featured-section h1{
+  margin-top: 30px;
+ }
  .hover-card:hover {
     /* border: 0px 0px 0px 2px solid blue; */
     border-bottom: 2px solid var(--secondry-blue) !important;
@@ -635,7 +640,11 @@ transform: scale(1);
 .faq-img{
   margin-top: 49px;
 }
-
+.faq-answer{
+  padding: 10px;
+  font-size: medium;
+  color: #2cb966;
+}
 /* .simplify-section */
 .performance-img {
   display: none;
@@ -655,6 +664,11 @@ transform: scale(1);
 .voice-section h1 {
   font-size: 34px;
 }
+
+ /* featured-section */
+ .devider{
+  color: red;
+ }
 
 /* footer  */
 footer h5 {
