@@ -691,19 +691,25 @@ footer h5 {
 
 /* lg  */
 @media (max-width: 1024px) {
-  
+  .simplify-section .performance-img{
+    display: none !important;
+  }
   
 }
 
 
 /* xl  */
 @media (max-width: 1288px) {
-
+  .simplify-section .performance-img{
+    display: none !important;
+  }
 }
 
 /* 2xl  */
 @media (max-width: 1536px) {
-
+  .simplify-section .performance-img{
+    display: none !important;
+  }
 }
 
 
