@@ -393,6 +393,15 @@ transform: scale(1);
   border-radius: 8px;
 }
 
+.btn-hero-demo{
+  padding: 10px 20px;
+  font-weight: bolder;
+  color: var(--heading-white-color);
+  background-color: var(--secondry-blue);
+  border: none;
+  border-radius: 8px;
+}
+
 
 .form-main {
   background-size: cover;
