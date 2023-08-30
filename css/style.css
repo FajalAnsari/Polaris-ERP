@@ -145,7 +145,7 @@
 }
 
 .start-80 {
-    left: 30rem;
+    transform: translate(54% , -47%);
 }
 
 .bg-color-lightblue {
@@ -155,7 +155,59 @@
 .z-index-5 {
     z-index: 5;
 }
+.Features-Book-demo{
+  background-color: var(--secondry-blue);
+  color: #ffffff;
+}
+.Features-para-color{
+  color: var(--para-color);
+}
+.feature-user-chef-position{
+  right: 0;
+  top: 50%;
+}
+.feature-user-chef-img{
+  width: 50%;
+}
+.feature-wastage-shirkage-img{
+  width: 80%;
+}
+.feature-wastage-shirkage-position{
+  bottom: 2%;
+  left:30%;
+}
+.feature-para-font{
+  font-size: 1.20em;
+}
+.feature-transaction-statistics-img{
+  width: 70%;
+}
+.feature-transaction-statistics-position{
+  left: 25%;
+  bottom: 0%;
+  transform: translate(-43%,12%);
+  /* display: block; */
+}
+/* @media screen and (max-device-width: 839px){
+  .feature-transaction-statistics-position{
+    display: none !important;
+  }
 
+}
+@media screen and (min-device-width: 840px) and (max-device-width: 1360px){
+  .feature-transaction-statistics-position{
+    left: 20%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+  }
+  
+} */
+.Experience-reliability{
+  margin: 6em 0rem;
+}
+.feature-light-blue-color{
+  color: var(--secondry-blue);
+}
 /* ---------------Home Page styling start---------------- */
 
 /* Hero section */
@@ -309,6 +361,27 @@ transform: scale(1);
     margin: auto;
     font-weight: bolder;
     font-size: 50px;
+ }
+ .home-monthly-profit-img{
+  width: 35%;
+ }
+ .home-monthly-profit-img-position{
+  left: 4%;
+  bottom: 8%;
+ }
+ .home-blue-cursor-img-position{
+  top: 20%;
+  left: 40%;
+ }
+ .home-blue-cursor-img{
+  width: 60%;
+ }
+ .home-curve-arrow-1-img-position{
+  left: 30%;
+  bottom: 30%;
+ }
+ .home-curve-arrow-1-img{
+  width: 60%;
  }
 
  /* Faq's   */
