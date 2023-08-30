@@ -1031,9 +1031,6 @@ footer h5 {
 .case_study_portfolio{
     background-color: var(--bg-dim-white);
 }
-.key_challenge p {
-/* color: var(--underline-blue-secondry) !important; */
-}
 .chinese_place_restaurant .transforming h1{
     font-size: 3.8rem;
     /* width: 120%; */
