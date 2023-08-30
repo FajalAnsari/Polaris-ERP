@@ -135,15 +135,8 @@
   }
 
   /* sticky-navbar animation  */
-  .sticky-nav {
-    position: fixed;
-    top: -100px; /* Initially position above the viewport */
-    left: 0;
-    right: 0;
-    background-color: #f3f7fa;
-    transition: top 0.3s ease; /* Add a smooth transition effect */
-    z-index: 1000;
-}
+  
+
   /* --------------------------------Universal end ------------------- */
 
 /* Features CSS  start */
