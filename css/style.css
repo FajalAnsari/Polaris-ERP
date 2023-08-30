@@ -668,46 +668,84 @@ footer h5 {
 
   /* Festured  */
   
+/* Case Study Portfolio Start */
+.chinese_place_restaurant .transforming h1{
+  font-size: 2.5rem !important;
+  /* width: 120%; */
+}
+.key_benefits_section h1{
+  width: 95% !important;
+  font-size: 1.6em !important;
+}
+
+/* Case Study Portfolio End */
 
 
 }
 
 /* sm  */
 @media (max-width: 640px) {
+  /* home section  */
   #home-page-main-slide-message{
     display: none !important;
   }
   .simplify-section .performance-img {
     display: none !important;
 }
+/* home section end */
+/* Case Study Portfolio Start */
+.chinese_place_restaurant .transforming h1{
+  font-size: 2.5rem !important;
+  /* width: 120%; */
+}
+.key_benefits_section h1{
+  width: 95% !important;
+  font-size: 1.6em !important;
+}
+/* Case Study Portfolio End */
 }
 
 /* md  */
 @media (max-width: 768px) {
+  /* Case Study Portfolio Start */
+.chinese_place_restaurant .transforming h1{
+  font-size: 2.5rem !important;
+  /* width: 120%; */
+}
+.key_benefits_section h1{
+  width: 95% !important;
+  font-size: 3.1em !important;
+}
+/* Case Study Portfolio End */
 
 }
 
 /* lg  */
 @media (max-width: 1024px) {
+  /* home section */
   .simplify-section .performance-img{
     display: none !important;
   }
-  
+  /* home section end */
 }
 
 
 /* xl  */
 @media (max-width: 1288px) {
+  /* home section end */
   .simplify-section .performance-img{
     display: none !important;
   }
+  /* home section end */
 }
 
 /* 2xl  */
 @media (max-width: 1536px) {
+  /* home section end */
   .simplify-section .performance-img{
     display: none !important;
   }
+  /* home section end */
 }
 
 
@@ -993,10 +1031,6 @@ footer h5 {
 .case_study_portfolio{
     background-color: var(--bg-dim-white);
 }
-.key_challenge p {
-color: var(--underline-blue-secondry) !important;
-
-}
 .chinese_place_restaurant .transforming h1{
     font-size: 3.8rem;
     /* width: 120%; */
@@ -1034,6 +1068,17 @@ color: var(--secondry-blue);
 }
 .key_facts_figures_section .facts_figures span{
     color: var(--secondry-blue);
+}
+.case-study-para-color{
+  color: var(--para-color);
+}
+.case-study-secondary-blue{
+  color: var(--secondry-blue);
+}
+.case-study-box-shadow{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%; 
+  border-radius: 1rem;
 }
 /* case stydy sub page styling end here */
 
