@@ -95,3 +95,12 @@ const partneredImages = document.querySelector('.partnered-images');
   });
   
   
+// sticky navbar js 
+window.addEventListener("scroll", function () {
+  var navbar = document.querySelector('.navbar');
+  if (window.pageYOffset > 100) {
+      navbar.classList.add('sticky-nav');
+  } else {
+      navbar.classList.remove('sticky-nav');
+  }
+});

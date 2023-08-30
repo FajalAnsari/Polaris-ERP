@@ -129,8 +129,17 @@
   .move-on-hover-top:hover {
     transform: translateX(0) translateY(-20px)
   }
-  
 
+  /* sticky-navbar animation  */
+  .sticky-nav {
+    position: fixed;
+    top: -100px; /* Initially position above the viewport */
+    left: 0;
+    right: 0;
+    background-color: #f3f7fa;
+    transition: top 0.3s ease; /* Add a smooth transition effect */
+    z-index: 1000;
+}
   /* --------------------------------Universal end ------------------- */
 
 /* Features CSS  start */
@@ -366,6 +375,7 @@ transform: scale(1);
     width: 40px;
     height: 40px;
     animation: spin 1s linear infinite;
+    
   }
   
   @keyframes spin {
@@ -377,7 +387,11 @@ transform: scale(1);
 
 
 .contact-section{
-  background-color: #f3f7fa;
+  background: linear-gradient(to bottom, #00000024, #f3f7fa79),
+  url(../images/Home/contact-bg.webp)
+    no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .book-a-demo{
@@ -404,8 +418,7 @@ transform: scale(1);
 
 
 .form-main {
-  background-size: cover;
-  min-height: 100vh;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -571,16 +584,21 @@ footer h5 {
   padding-left: 20px !important;
 }
 
-
+  /* Festured  */
+  
 
 
 }
 
 /* sm  */
 @media (max-width: 640px) {
-
+  #home-page-main-slide-message{
+    display: none !important;
+  }
+  .simplify-section .performance-img {
+    display: none !important;
 }
-
+}
 
 /* md  */
 @media (max-width: 768px) {
