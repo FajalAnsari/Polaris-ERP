@@ -387,9 +387,9 @@ transform: scale(1);
 
 
 .contact-section{
-  background: linear-gradient(to bottom, #00000024, #f3f7fa79),
-  url(../images/Home/contact-bg.webp)
-    no-repeat center;
+  background: #e7f5fdaf;
+  
+   
   background-size: cover;
   min-height: 100vh;
 }
@@ -399,7 +399,8 @@ transform: scale(1);
 }
 
 .btn-send {
-  padding: 10px 20px;
+  margin-top: 1rem;
+  padding: 15px 20px;
   font-weight: bolder;
   color: var(--heading-white-color);
   background-color: var(--secondry-blue);
