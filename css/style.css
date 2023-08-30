@@ -113,6 +113,10 @@
     background: linear-gradient(180deg, #ffffff00 80%, #f9d415 100%, #311b1d8f 29%, transparent 28%)
    
   }
+  .brush-paint-pink {
+    background: linear-gradient(180deg, #ffffff00 80%, #ffdbd9 100%, #311b1d8f 29%, transparent 28%)
+   
+  }
   
   /* image animation  */
 .move-on-hover-left {
@@ -145,7 +149,7 @@
 }
 
 .start-80 {
-    transform: translate(54% , -47%);
+    transform: translate(90% , -47%);
 }
 
 .bg-color-lightblue {
