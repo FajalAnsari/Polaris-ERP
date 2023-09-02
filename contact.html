@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+   <!-- Title -->
+   <title> Connect With Us | Polaris Technology </title>
+   <!-- Favicon -->
+   <link rel="icon" href="images/polaris-favicon.png" type="image/x-icon">
   <!-- Include common CSS files -->
   <link rel="stylesheet" href="css/style.css" />
  
@@ -13,7 +17,76 @@
     <div id="loader"></div>
   </div>
   <!-- Navbar placeholder -->
-  <div id="navbar" class="sticky-top"></div>
+  <div id="navbar" class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+
+      <div class="container">
+
+        <a class="navbar-brand" href="index.html"><img class="ms-2" src="images/polaris-technology-logo.png"
+            alt="Polaris Technology" width="175px"></a>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav desktop-menu">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/benefits.html">Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/case-studies.html">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-lg-flex align-items-center">
+          <a class="text-decoration-none" href="#book-demo">
+            <button class="btn-hero-demo me-4 d-none d-lg-block">Book a Demo</button> </a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="#"><img src="images/polaris-technology-logo.png" alt="Polaris Technology"
+            width="175px"></a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav mobile-menu">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/features.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/benefits.html">Benefits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/case-studies.html">Case Studies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <!-- Form and contact detail container  -->
   <div class="bg-contactpage">
@@ -80,34 +153,34 @@
 
       </div>
       <!-- Contact Form -->
-      <div class="col-lg-5 col-10 mt-5 mt-lg-0">
+      <div class="col-lg-5 col-10 mt-5 mb-5 mt-lg-0">
         <div class="bg-white p-5 rounded-3">
           <div class="fs-5 fw-bold">
             Send A Message
           </div>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-xs-12 col-xl-6">
               <label for="First-Name" class="fs-5 my-3">First Name</label>
               <input type="text" aria-label="Last name" class="form-control py-2" placeholder="Habib">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-xl-6">
               <label for="Last-Name" class="fs-5 my-3">Last Name</label>
               <input type="text" aria-label="Last name" class="form-control py-2" placeholder="Abdullah">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-xl-6">
               <label for="Email" class="fs-5 my-3">Email</label>
               <input type="text" aria-label="Last name" class="form-control py-2" placeholder="info@polariserp.com">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-xl-6">
               <label for="Number" class="fs-5 my-3">Phone</label>
               <input type="text" aria-label="Last name" class="form-control py-2" placeholder="00971 563201012">
             </div>
-            <div class="col-12">
+            <div class="col-12 col-xl-12">
               <label for="Your Message" class="fs-5 my-3">Your Message</label>
               <textarea name="Type your Text Here....." id="" rows="5" class="w-100 border border-1 rounded-3 px-2 py-3"
                 placeholder="Type your Text Here....."></textarea>
             </div>
-            <div class="col-5">
+            <div class="col-12 col-xl-6">
               <input type="submit" class="border rounded-3 text-light px-4 py-2 fs-5 my-3 btn-hero-demo" value="Submit">
             </div>
           </div>
@@ -119,20 +192,21 @@
   <!-- Let's Discuss Your Restaurant's Success Container  -->
   <div class="position-relative" id="book-demo">
     <div class="position-absolute start-50 top-0 translate-middle w-100">
-      <div class="row justify-content-center align-items-center w-75 mx-auto bg-color-lightblue px-4 py-5 rounded-3">
-        <div class="col-8">
-          <div class="fs-2 fw-bold">
-            Let's Discuss Your Restaurant's Success
+      <div class="row justify-content-center align-items-center w-75 mx-auto bg-color-lightblue px-4 py-3 mt-5 rounded-3">
+        <div class="col-10">
+          <div class="">
+            <h1 class="fw-bold">
+              Let's Discuss Your Restaurant's <span class="brush-paint-yellow">Success</span>
+            </h1>
           </div>
           <div class="fs-5">
             Our experts are here to understand your needs, provide valuable insights, and drive your success.
           </div>
+          <div class="my-4 lh-lg fs-5">
+            <button class="Features-Book-demo border-0 px-4 py-2 fw-bold rounded-3">Book a Demo</button>
+          </div>
         </div>
-        <div class="col-4 text-center">
-          <a href="#" class="border rounded-3 text-light px-4 py-2 fs-5 my-3 text-decoration-none btn-hero-demo" type="button">
-            Book a Demo
-          </a>
-        </div>
+        
       </div>
 
     </div>
@@ -145,6 +219,8 @@
   </div>
 
 
+
+
   
 
 
@@ -153,15 +229,9 @@
   <!-- Foooter placeholder -->
   <div id="footer"></div>
 
-  <!-- common navbar and footer -->
+  <!-- common footer -->
   <script>
     function loadCommonContent() {
-      fetch("navbar.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("navbar").innerHTML = data;
-        });
-
       fetch("footer.html")
         .then((response) => response.text())
         .then((data) => {
@@ -176,8 +246,8 @@
   preloader.style.display = 'none';
 });
   </script>
-  <!-- Boostrap js CND  -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- js 5.2.3v   -->
+   <script src="js/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
