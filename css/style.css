@@ -348,19 +348,11 @@ margin-top: 10px;
 .simplify-section .main-video-img{
   height: 50%;
 }
-.simplify-section .performance-img{
-width: 50%;
-  /* height: 20%; */
-  /* z-index: 99; */
-  /* position: relative; */
-  /* bottom: 528px; */
-  /* left: 625px; */
-}
 .simplify-section .performance-img-position{
 position: absolute;
-top: 8%;
-transform: translate(80% ,50%);
-width: max-content;
+top: 0%;
+transform: translate(130% ,40%);
+width: 50%;
 }
 /* Voices Of Success  Restaurant */
 
